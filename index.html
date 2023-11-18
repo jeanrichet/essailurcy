@@ -1,17 +1,573 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Cours 1 HTML - Mes premières balises</title>
-  </head>
 
-  <body>
-    <!-- TODO: Écrire une balise <h1> avec le contenu suivant : Mes premières balises HTML -->
-        <h1>Bonjour Monsieur RICHET</h1>
-            <h1>Modification 8 du  13 nov 2023</h1>
-    <!-- TODO: Écrire une balise <h2> avec le contenu suivant : Hello World -->
-        <h2>Hello World!</h2>
-           <h2>Hello World!</h2>
- <!-- TODO: Écrire une balise <p> avec le contenu suivant : Bonjour, bienvenue sur la page de [prénom] -->
-    <h3>Vous etes dans le monde de GIT et GITHUB</h3>
+<head>
+    <title>Lurcy-lévis de Jano</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- le ajax de google  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet"
+        href="/home/jano/Bureau/mesitesweb/bootstrap-gallery-ludovicscribe/bootstrap-gallery-1.1/bootstrap-gallery.css" />
+
+
+</head>
+
+<body>
+    <style type="text/css">
+        body {
+            color: black;
+        }
+    </style>
+
+    <nav class="bg-info navbar navbar-expand-lg fixed-top">
+        <h2>
+            <a class="navbar-brand" href="#header">Lurcy-lévis</a>
+        </h2>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li>
+                    <a class="nav-link" href="#Yaller">Y aller</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#galerieinterieur">Photos interieur maison</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#galeriejardin">Photos du jardin</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Historik">Historik</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#DocTechnique">Prendre en main la maison</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#contactjano">Nous contacter</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#les diaporamas">Diapo des environs de Lurcy</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <section id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-6 col-xs-12">
+                    <h1>Lurcy-lévis 03320</h1>
+                    <p>10 Rue Jean Jaures à Lurcy-lévis dans l'Allier, aux confins du Cher et de la Nièvre </p>
+                    <img src="./photos/environnement/lamaisonvuedelarue.jpg" title="maisonvuedelarue" class="img-fluid" alt="maison ancienne"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main role="main">
+        <section class="bg-info" id="Yaller">
+            <div class="container">
+                <br>
+                <h1>Comment y aller?</h1>
+                <br>
+                <div class="row">
+                    <br>
+                    <h2> Lurcy-lévis est situé, dans le bocage bourbonnais, entre <strong>Bourges </strong>au NW,
+                        <strong>Nevers
+                        </strong> au NE et <strong>Moulins </strong> au SE</h2>
+                    <h2><br>Par la route :<br> Depuis Paris, prendre A6 puis A77 et sortie Saint-pierre-le-moûtier<br>
+                        Depuis Lyon, prendre la A6 puis sortir à Macon et prendre la N79 jusqu'à Moulins<br></h2>
+                    <br>
+                        <!-- essai de iframe
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d350004.5568755054!2d2.841063280594816!3d46.73708563468602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1545218939265"
+                        width="12000" height="900" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        
+                        -->
+                        <h4> CLiquez sur + ou - pour modifier l'échelle de la carte </h4>
+                        <br>
+                        <p>  </p>
+
+    
+                        <div style=" margin-left: auto; margin-right: auto;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87501.1393889623!2d2.84089153489285!3d46.73708552987004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f08b4083a9dfc1%3A0x3267b2c8de7aef21!2s03320%20Lurcy-L%C3%A9vis!5e0!3m2!1sfr!2sfr!4v1590141296005!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                        </div>
+                        
+
+                    <div class="col-md-6 col-xs-12 col-lg-6 ">
+                        <br>
+                        <h2>Par le train, la gare la plus pratique est celle de <em>Moulins</em></h2>
+                        <br>
+                    </div>
+                    <div class="col-md-6 col-xs-12 col-lg-6">
+                        <br>
+                        <p>Arrivé à la gare de Moulins, pour une somme modique de 2€, vous pouvez vous faire attendre
+                            par un taxi que
+                            vous aurez préalablement reservé et qui vous attendra à l'arrivée du train.Il n'y a qu'un train par jouradapté à ce système. </p>
+                        <p>Pour bénéficier de ce service mis en place par le département de l'Allier, il vous faut
+                            téléphoner au
+                            préalable pour une reservation au 04 73 31 82 00</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class=" bg-info row" id="retour">
+                        <div class="col-12">
+                            <a href="#top">Retour a l accueil du site </a>
+
+                            <br>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+
+            </div>
+
+
+        </section>
+
+        <!-- section.yaller -->
+        <section class="container" id="Historique">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Quelques diaporamas...</h2>
+                </div>
+                <div class="col-md-4 col-xs-24 team-member">
+                    <a href="./photosenvironlurcy.html">Quelques photos des environs de Lurcy<img
+                            src="./photos/environnement/chateau.jpg" /></a>
+
+                    <h4>des environs de Lurcy</h4>
+                    <h6>Chateaux &amp; paysages</h6>
+                </div>
+                <!-- /div.team-member -->
+                <div class="col-md-4 col-xs-12 team-member">
+                    <a href="./photosjardin.html">Quelques photos du jardin<img
+                        src="./photos/jardin/20160625_122933.jpg" /></a>
+
+                <h4>du jardin</h4>
+               
+                    
+                </div>
+                <!-- /div.team-member -->
+                <div class="col-md-4 col-xs-12 team-member">
+                    <a href="./photospiscine.html">Quelques photos de la piscine<img
+                        src="./photos/piscine/piscineverspotager.jpg" /></a>
+                    <h4>de La piscine </h4>
+                    <h6>Volet ouvert ou fermé</h6>
+                </div>
+                <!-- /div.team-member -->
+        </section>
+        <!-- section.historique -->
+
+        <section class="bg-info" id="DocTechnique">
+            <div class="container">
+
+<!--
+        <section class="bg-info" id="DocTechnique">
+            <div class="col-md-6 col-xs-12 col-lg-12  ">
+ -->
+                <br>
+                <h1>Ci-après, un lien vers des documents qui peuvent vous etre utiles</h1>
+                <br>
+
+            </div>
+
+
+            <div class="container">
+             
+ <!--
+   <div class="row col-md-6 col-xs-24 col-lg-6 ">
+ -->
+
+
+
+                    <h2>Quelques documents pour vous aider a profiter et entretenir la Maison<br />
+                        N hesitez pas à les utiliser!</h2>
+                        <p></p>
+
+                    <div>
+                        <br />
+                        <p>Notice d'entée sortie de la maison, à destination de tous les occupants de la maison </p>
+                        <a href="./documents/NoticeESE.pdf"> Guide d'utilisation de la maison<br /></a>
+                        <br />
+                    </div>
+                    <div>
+                        <br />
+                        <p>Notice succinte d'utilisation de la piscine </p>
+                        <a href="./documents/Noticesuccinte.pdf"> Guide rapide d'utilisation de la piscine<br /></a>
+                        <br />                    </div>
+                    <div>
+
+
+                        <br />
+                        <p>Notice d'entretien, hivernage, déshivernage de la piscine</p>
+                        <a href="./documents/Guidedutilisationetdemaintenance.pdf"> Mise en route et entretien de
+                            la piscine </a>
+                    </div>
+
+                    <div class="container" id="sautdeligne">
+                        <div class=" row">
+                            <div class="col-12">
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                            <!-- on saute les balises embed
+
+
+                    <div>
+                        <embed src=./documents/NoticeESE.pdf width=1200 height=500 type='application/pdf'>
+                    </div>
+
+                    <p></p>
+
+                    <div>
+                        <embed src=./documents/Guidedutilisationetdemaintenance.pdf width=800 height=500
+                            type='application/pdf'>
+                    </div>
+                     -->
+                </div>
+
+                    </div>
+                    <div class="container">
+                            <div class=" bg-info row" id="retour">
+                                <div class="col-12">
+                                <a href="#top">Retour a l accueil du site </a>
+                            
+                                <br>
+                            </div>
+                            <br>
+
+                        </div>
+                        <br>
+
+                        </div>  
+         </div>
+     
+    </section>
+    <!-- section.Contact -->
+    <section class="bg-info" id="contactjano">
+            <br>
+            <h1>Pour nous contacter</h1>
+            <br>
+    <p>Vous pouvez nous contacter via:</p>  
+    <ul>
+        <li><a href="mailto:jean.richet@orange.fr?subject=Demande%20pour%20Lurcy&body=Bonjour%20Monsieur%20Richet
+         
+            %0A je vous envoie ce courriel depuis  le site lurcy">Cliquez ICI pour nous envoyer un courriel.
+         <br>
+         Puis ouvrez  votre outil de messagerie</a></li>
+        <li><a >Telephone +33(0)683376767</a></li>
+        <li><a href="tel:+33(0)683376767">Phone</a></li>
+    </ul>
+    <div class="container" id="sautdeligne">
+        <div class=" row">
+            <div class="col-12">
+            </div>
+            <br>
+        </div>
+    </div>
+    <div class="container">
+        <div class=" bg-info row" id="retour">
+            <div class="col-24">  <!-- 24 au lieu de 12 -->
+                <a href="#top">Retour a l accueil du site </a>
+            </div>
+            <br>
+        </div>
+        <br>
+    </div>
+</section>
+  <!-- section.contactjano -->
+  
+  <section class="bg-info" id="documentsentretien">
+   
+    </section>
+
+    <!-- section.documentsentretien -->
+
+    <!-- NOUVELLE GALERIE PISCINE -->
+                     <!-- 
+
+    <object type="text/html" data="./NEWgalerieinterieur.html" ></object>
+
+    <object type="text/html" data="./NEWgalerieinterieur.html" width="1500" height="1500"></object>
+
+        <a href="./photospiscinenew.html">NOUVELLE GALERIE piscine</a>
+                        NOUVELLE GALERIE PISCINE -->
+
+    <!--  DEBUT section.galeriejano -->
+    <section class="galerieinterieur" id="galerieinterieur">
+        <br>
+        <h1>une galerie de photos de l'intérieur de la maison</h1>
+        <br>
+        <p>Cliquer sur les pastilles bleu en bas de la photo pour faire défiler les photos de la galerie</p>
+        <div class="container">
+            <div class="row">
+                <div class="swiper-container col-4 col-offset-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./photos/interieurmaison/entrée.JPG" alt="Image 6" title="entree" />
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <img src="./photos/interieurmaison/chambreRC.JPG" alt="Image 7" title="Chambre du RC" />
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <img src="./photos/interieurmaison/cuisine.JPG" alt="Image 8" title="Cuisine" />
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <img src="./photos/interieurmaison/salleamanger.JPG" alt="Image 6" title="Salle à manger" />
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <img src="./photos/interieurmaison/salon.JPG" alt="Image 7" title="Salon" />
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <img src="./photos/interieurmaison/chambre1.JPG" alt="Image 1" title="Chambre parents" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./photos/interieurmaison/chambre2.JPG" alt="Image 2" title="Chambre 2" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./photos/interieurmaison/chambre3.JPG" alt="Image 3" title="Chambre 3" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./photos/interieurmaison/chambre4.JPG" alt="Image 4" title="Chambre 4" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./photos/interieurmaison/chambredortoir.JPG" alt="Image 4" title="dortoir" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./photos/interieurmaison/plafondcuisine.jpg" alt="Image 4" title="plafond de la cuisine" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./photos/interieurmaison/billard.JPG" alt="Image 4" title="salle de billard dans une dependance" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./photos/interieurmaison/chambreaudessusbillard.jpg" alt="Image 4" title="Chambre d'été au dessus du billard" />
+                        </div>
+    
+    
+                    </div>
+                    <!-- div.swiper-wrapper -->
+                    <div class="swiper-pagination"></div>
+                    
+                </div>
+                <!-- div.swiper-container -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FIN section.galerieinterieur -->
+
+ <!--  DEBUT section.galeriejardin -->
+ <section class="galeriejardin" id="galeriejardin">
+    <br>
+    <h1>une galerie de photos du jardin</h1>
+    <br>
+    <p>Cliquer sur les pastilles bleu en bas de la photo pour faire défiler les photos de la galerie</p>
+    <div class="container">
+        <div class="row">
+            <div class="swiper-container col-4 col-offset-2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./photos/jardin/jardinhaut1-400.jpg" alt="Image 1" title="Le haut du jardin" />
+                    </div>
+                    <div class="swiper-slide">
+                            <img src="./photos/jardin/maisonvuedenbas.jpg" alt="Image 1" title="La maison vue d'en bas" />
+                        </div>
+                        <div class="swiper-slide">
+                                <img src="./photos/jardin/piscine1.JPG" alt="Image 1" title="La piscine" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./photos/jardin/piscinevuedeloin-2.jpg" alt="Image 3" title="La piscine vue de loin" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./photos/jardin/printemps-2.jpg" alt="Image 3" title="image de printemps" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./photos/jardin/terrasse-2.jpg" alt="Image 3" title="terrasse devant la maison" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./photos/jardin/coucherdesoleil-3.jpg" alt="Image 3" title="coucher de soleil depuis la terrasse" />
+                            </div>
+
+                </div>
+                <!-- div.swiper-wrapper -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- div.swiper-container -->
+        </div>
+    </div>
+</section>
+<!-- FIN section.galeriejardin -->
+
+
+<!--  DEBUT section.galeriepotager -->
+        <section class="galeriepotager" id="galeriepotager">
+            <br>
+            <h1>Une galerie de photos du potager</h1>
+            <br>
+            <p>Cliquer sur les pastilles bleu en bas de la photo pour faire défiler les photos de la galerie</p>
+            <div class="container">
+                <div class="row">
+                    <div class="swiper-container col-4 col-offset-2">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./photos/potager/lamaisonvuedufonddupotager-2.jpg" alt="Image 1" title="La maison vue du fond du potager" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./photos/potager/lepotagerverslariviere-2.jpg" alt="Image 1" title="Le fond du potager, vers la rivière" />
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="./photos/potager/partiehaute.jpg" alt="Image 1" title="La partie haute dupotager" />
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <img src="./photos/potager/alléeaufond.jpg" alt="Image 1" title="L allée des pommiers en deuxième partie" />
+                        </div>
+
+                        
+                        <div class="swiper-slide">
+                            <img src="./photos/potager/larivierelanduise.jpg" alt="Image 1" title="La riviere au fond du potager" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./photos/potager/lespeches.jpg" alt="Image 1" title="Les peches" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./photos/potager/lesprunes.jpg" alt="Image 1" title="Les prunes" />
+                      </div>
+
+                        <div class="swiper-slide">
+                            <img src="./photos/potager/cerises.jpg" alt="Image 1" title="Les cerises" />
+                        </div>
+                           <!-- premieres photos en commentaire!--><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+
+                    </div>
+                    <!-- div.swiper-wrapper -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- div.swiper-container -->
+            </div>
+        </div>
+    </section>
+<!-- FIN section.galeriepotager -->
+<!-- debut  section Historik -->
+<section class="bg-info" id="Historik">
+        <div class="container">
+        <br>
+        <h1>Historique de Lurcy et de la maison</h1>
+        <br>
+     <P> 
+             <a href="./historiquelurcy.html">historique Lurcy</a>
+            </P>
+    </div>
+       <!--  <div class=  <div class="col-12"></div>" bg-info row" id="retour"> -->
+        <div class=  "row" id="retour">
+                <a href="#top">Retour a l accueil du site </a>
+            <br>
+        </div>
+        <br>
+    </section>
+
+    <div class="container" id="sautdeligne">
+            <div class=" row" >
+                <div class="col-12">
+                </div>
+                <br>
+            </div>
+        </div>
+    <!-- FIN  section les Historik -->
+
+<!-- debut  section les diaporamas -->
+<section class="bg-info" id="les diaporamas">
+    <div class="container">
+    <br>
+    <h1>quelques diaporamas différents</h1>
+    <br>
+ <P> 
+         <a href="./photosenvironlurcy.html">Quelques photos des environs de Lurcy</a>
+        </P>
+</div>
+<div class="row" id="retour">
+    <a href="#top">Retour a l accueil du site</a> 
+</div>  
+</section>
+<!-- FIN  section les diaporamas -->
+
+ 
+
+    </main>
+
+  
+       <!-- Lancement d'un javascript  
+       <script src="./scripts/main.js"></script>
+
+       <script type="text/javascript" src="/home/jano/Bureau/mesitesweb/bootstrap-gallery-ludovicscribe/bootstrap-gallery-1.1/bootstrap-gallery.js"></script>
+    -->  
+      <!--
+    <object type="text/html" data="./lancementscripJSswiper.html" ></object>
+        -->
+
+       <script src="./js/jquery-3.3.1.min.js"></script>
+       <script src="./js/smooth-scroll.min.js"></script>
+       <script src="./js/swiper.min.js"></script>
+       <script>
+           jQuery(() => {
+               jQuery('select').on('change', (e) => {
+                   const value = e.target.value;
+                   const subscribeBtn = $('form button');
+   
+                   if (value !== '') {
+                       subscribeBtn.attr('disabled', false);
+                   } else {
+                       subscribeBtn.attr('disabled', true);
+                   }
+               })
+           });
+           const scroll = new SmoothScroll('a[href*="#"]');
+           var mySwiper = new Swiper('.swiper-container', {
+            spaceBetween: 10,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            touchRatio: 0.2,
+            slideToClickedSlide: true,
+               speed: 400,
+             // width:400,
+             //height:400,
+               pagination: {
+                   el: '.swiper-pagination',
+                   type: 'bullets',
+                   clickable: true
+               }
+  
+
+               // navigation: {
+               //     nextEl: '.swiper-button-next',
+               //     prevEl: '.swiper-button-prev',
+               // },
+           });
+       </script> 
+
+  </body>
+</html>
+
 </body>
+
 </html>
