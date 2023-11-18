@@ -1,0 +1,168 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="./css/swiper.min.css" />
+      <link rel="stylesheet" href="css/all.min.css" />
+      <link rel="stylesheet" href="css/styles.css" />
+      <link rel="stylesheet"
+          href="/home/jano/Bureau/mesitesweb/bootstrap-gallery-ludovicscribe/bootstrap-gallery-1.1/bootstrap-gallery.css" />
+  
+</head>
+
+<body>
+  <TITLE>photos et videos du jardin </TITLE>
+
+  <video controls width="450">
+
+    <source src="./video/20200730_133756.mp4"
+            type="video/webm"
+            alt="doubleclic pout agrandir la video">
+
+    <source src="./video/20200730_133756.mp4"
+            type="video/mp4"
+            alt="doubleclic pout agrandir la video">
+            >
+
+    Download the
+    <a href="./video/20200730_133756.mp4" title="doubleclic pout agrandir la video">WEBM</a>
+    or
+    <a href="./video/20200730_133756.mp4" alt="doubleclic pout agrandir la video">MP4</a>
+    video.
+</video>
+
+  <section class="videojardin" id="videojardin">
+    <h1>Une video du jardin</h1>
+
+  <video width="320" height="240" controls>
+    <source src="./video/20200730_133756.mp4" type=video/mp4  
+     alt="doubleclic pout agrandir la video"
+    >
+  </video>
+  <p>Double cliquez sur la vignette video pour passer en plein ecran</p>
+
+</section>
+<!-- FIN section videojardin -->
+
+      <!--  DEBUT section.galeriejardin -->
+      <section class="galeriejardin" id="galeriejardin">
+        <h1>Une galerie de photos du jardin</h1>
+        <br>
+        <p>Cliquer sur les pastilles bleu en bas de la photo pour faire défiler les photos de la galerie</p>
+        <div class="container">
+            <div class="row">
+                <div class="swiper-container col-4 col-offset-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./photos/jardin/lebatimentdubillard-600.JPG" alt="Image 1" title="jardin vers batiment du billard" />
+                        </div>
+                   
+
+
+                        <div class="swiper-slide">
+                                <img src="./photos/jardin/piscineetpalmier-600.JPG" alt="Image 1" title="La maison vue d'en bas" />
+                        </div>
+                            <!-- on desactive les photos suivantes 
+
+                        <div class="swiper-slide">
+                                <img src="./photos/jardin/starlette-600.jpg" alt="Image 1" title="La piscine" />
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="./photos/jardin/piscinevuedeloin-600.jpg" alt="Image 3" title="La piscine vue de loin" />
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="./photos/jardin/plongeoir-600.jpg" alt="Image 3" title="un plongeoir?" />
+                        </div>
+
+                     
+                        <div class="swiper-slide">
+                            <img src="./photos/jardin/vuedelaterrasse-600.jpg" alt="Image 3" title="piscine vue de la terrasse" />
+                        </div>
+  
+                        <div class="swiper-slide">
+                            <img src="./photos/jardin/cerisierpalmieretpiscine-600.JPG" alt="Image 3" title="coucher de soleil depuis la terrasse" />
+                        </div>
+
+
+                          -->
+                      
+
+                        </div>
+                        <!-- div.swiper-wrapper -->
+                        <div class="swiper-pagination"></div>
+                </div>
+                <!-- div.swiper-container -->
+            </div>
+
+
+            <!--  
+    
+                -->
+        </section>
+<!-- FIN section.galeriepiscine -->
+
+        
+    </section>
+
+</main>
+
+  
+<!-- Lancement d'un javascript  
+<script src="./scripts/main.js"></script>
+
+<script type="text/javascript" src="/home/jano/Bureau/mesitesweb/bootstrap-gallery-ludovicscribe/bootstrap-gallery-1.1/bootstrap-gallery.js"></script>
+-->
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/smooth-scroll.min.js"></script>
+<script src="./js/swiper.min.js"></script>
+<script>
+    jQuery(() => {
+        jQuery('select').on('change', (e) => {
+            const value = e.target.value;
+            const subscribeBtn = $('form button');
+
+            if (value !== '') {
+                subscribeBtn.attr('disabled', false);
+            } else {
+                subscribeBtn.attr('disabled', true);
+            }
+        })
+    });
+    const scroll = new SmoothScroll('a[href*="#"]');
+    var mySwiper = new Swiper('.swiper-container', {
+     spaceBetween: 10,
+     centeredSlides: true,
+     slidesPerView: 'auto',
+     touchRatio: 0.2,
+     slideToClickedSlide: true,
+        speed: 400,
+       width:400,
+      height:400,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true
+        }
+
+
+        // navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        // },
+    });
+</script> 
+</body>
+</html>
+
+
+
+</body>
+
+</html>
