@@ -1,0 +1,38 @@
+/**
+ *
+ * gallery
+ *http://rad2.free.fr/ccm/tests/photo_simple.css.xhtml
+ */
+ #gallery {
+    position: relative;  /** static*/
+    width: 750px;
+  }
+  #thumbs {
+    width: 180px;
+    float: left;
+  }
+  #thumbs a {
+    display: block;
+    float: right;
+    margin: 0 0 5px 5px;
+    width: 50px;
+    height: 50px;
+    border: 0px solid #000;
+  }
+  #thumbs a img {
+    width: 50px;
+    height: 50px;
+    border: 0;
+  }
+  #thumbs a:hover {
+    border-color: #ddd;
+  }
+  #thumbs a:hover img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 185px;
+    top: 0;
+    border: 1px solid #333;
+  }
+  
