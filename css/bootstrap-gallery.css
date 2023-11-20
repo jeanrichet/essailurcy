@@ -1,0 +1,48 @@
+/*
+ * Bootstrap gallery v1.1
+ * https://github.com/ludovicscribe/bootstrap-gallery
+ * https://ludovicscribe.fr/blog/galerie-images-bootstrap
+ *
+ * Copyright 2016, Scribe Ludovic
+ * https://ludovicscribe.fr/
+ */
+
+#bootstrap-gallery .modal-dialog {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bootstrap-gallery .modal-content {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+#bootstrap-gallery .modal-header {
+	padding: 5px 10px;
+}
+
+#bootstrap-gallery .modal-body {
+	padding: 0;
+}
+
+#bootstrap-gallery .modal-body img {
+	width: 100%;
+}
+
+#bootstrap-gallery .modal-body  .carousel-control {
+	background-image: none;
+}
+
+#bootstrap-gallery .modal-header  a.modal-button {
+	float: right;
+	font-size: 18px;
+	line-height: 1;
+	color: #CCCCCC;
+	margin-left: 5px;
+}
+
+#bootstrap-gallery .modal-header  a.modal-button:hover {
+	text-decoration: none;
+	color: #808080;
+}
